@@ -1,0 +1,71 @@
+@media screen and (max-width: 1170px) and (min-width: 601px) {
+    #header {
+        background-color: var(--color1);
+    } /*isso é um exemplo*/
+      
+    div#links {
+        width: 500px;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+      }
+
+    a#linkHeader {
+        font-size: 16px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    div.linkMenu{
+        display: none;
+      }
+
+    div.menuMobile{
+        display: none;
+      }
+
+    div.redes-sociais{
+        display: none;
+    }
+}
+
+
+
+
+@media screen and (max-width: 600px) and (min-width: 320px){
+    #header {
+        background-color: var(--color1);
+        position: fixed;
+        justify-content: space-around;
+    }
+
+    div#links{
+        display: none;
+    }
+
+    div.linkMenu{
+        display: flex;
+        cursor: pointer;
+    }
+
+    div.menuMobile{
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 20px;
+        top: 75px;
+        background-color: var(--color5);
+    }
+    
+    nav ul li{
+        list-style-type: none;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    div.redes-sociais{
+        display: none;
+    }
+}

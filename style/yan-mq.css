@@ -1,0 +1,266 @@
+@media screen and (max-width: 1170px) and (min-width: 601px) {
+    /*Depoimentos*/
+    div.mae{
+        height: auto;
+        background-image: url(../img/depoimentosBackground.png);
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
+    #depoimentos{
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 30px;
+    }
+
+    img.depoimentosBackground{
+        display: none;
+    }
+
+    .filha2 {
+        height: auto;
+        width: 90%;
+        box-sizing: border-box;
+        padding: 20px 10px;
+        margin: 30px 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img.depoimentosAspas {
+        width: 90px;
+    }
+
+    div.depoimentosPerfilParagrafo{
+        margin: -30px 0 10px 0;
+    }
+
+    div.box2{
+        left: 80%;
+    }
+
+    div.filha1 {
+        height: auto;
+        width: 90%;
+        margin-bottom: 120px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    div.filha1 p{
+        margin: 30px 0;
+        width: 60%;
+    }
+
+    /*footer tablet*/
+    footer.rodape {
+        height: auto;
+    }
+
+    .footerContent{
+        height: auto;
+        box-sizing: border-box;
+        padding: 150px 30px 30px 30px;
+        flex-wrap: wrap;
+    }
+
+    div.footerContentLogo {
+        width: 60%;
+        height: fit-content;
+      }
+
+    div.footerContentMenu {
+        width: 35%;
+        height: fit-content;
+    }
+
+    div.footerContentRedes {
+        width: 50%;
+        height: fit-content;
+        margin-top: 50px;
+    }
+
+    .footerCopy{
+        flex-direction: column;
+        height: auto;
+    }
+
+    div.footerCopyRight a{
+        margin-left: 0;
+        margin-top: -15px;
+        padding: 0 30px;
+    }
+
+    /* container newsletter tablet*/
+
+    div.newsletterContainer{
+        flex-direction: column;
+        width: 90%;
+        height: 185px;
+        padding: 20px 0;
+    }
+
+    div.newsletterTitulos {
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 600px) and (min-width: 320px){
+    /*Depoimentos*/
+    div.mae{
+        height: auto;
+        background-image: url(../img/depoimentosBackground.png);
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
+    #depoimentos{
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 30px;
+    }
+
+    img.depoimentosBackground{
+        display: none;
+    }
+
+    .filha2 {
+        height: auto;
+        width: 90%;
+        box-sizing: border-box;
+        padding: 30px 10px;
+        margin: 30px 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    img.depoimentosAspas {
+        width: 50px;
+    }
+
+    div.depoimentosPerfilParagrafo {
+        width: 85%;
+        height: auto;
+        margin: 70px 0 30px 0;
+      }
+
+    .depoimentosPerfilContainerTitulos{
+        margin-top: 60px 0px;
+    }
+
+    div.depoimentosPerfilContainer {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    img.depoimentosPerfilFoto {
+        margin: 10px 34px;
+      }
+
+    div.depoimentosPerfilContainerTitulos{
+        align-items: center;
+    }
+
+    div.box2{
+        left: 50%;
+        top: 100%;
+        transform: translateX(-50%);
+    }
+
+    div.filha1 {
+        height: auto;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: 50px 0 100px 0;
+    }
+
+    div.filha1 h2, div.filha1 p{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    /*footer mobile*/
+    footer.rodape {
+        height: auto;
+    }
+
+    .footerContent{
+        height: auto;
+        box-sizing: border-box;
+        padding: 150px 30px 0px 30px;
+        flex-direction: column;
+    }
+
+    div.footerContentLogo {
+        width: 80%;
+        height: fit-content;
+        margin-top: 70px;
+        align-items: center;
+    }
+
+    div.footerContentLogo p{
+        text-align: center;
+    }
+
+    div.footerContentMenu {
+        width: 80%;
+        height: fit-content;
+        margin-top: 30px;
+    }
+
+    div.footerContentRedes {
+        width: 50%;
+        height: fit-content;
+        margin-top: 30px;
+    }
+    
+    .footerCopy{
+        flex-direction: column;
+        height: auto;
+    }
+
+    div.footerCopyRight {
+        width: 100%;
+      }
+
+    div.footerCopyRight a{
+        margin-left: 0;
+        margin-top: -15px;
+        padding: 0;
+    }
+
+    /* container newsletter mobile*/
+
+    div.newsletterContainer{
+        flex-direction: column;
+        width: 95%;
+        height: 270px;
+        padding: 20px 0;
+    }
+
+    div.newsletterTitulos {
+        height: 80px;
+        width:300px;
+        align-items: center;
+    }
+
+    form.newsletterForm {
+        height: 120px;
+        width: 238px;
+        flex-direction: column;
+    }
+
+    .botaoFooterEnviar {
+        height: 46px;
+        width: 149px;
+    }
+}

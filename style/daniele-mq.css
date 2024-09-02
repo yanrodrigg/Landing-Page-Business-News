@@ -1,0 +1,182 @@
+@media screen and (max-width: 1170px) and (min-width: 601px) {
+    /*MAIN tablet*/
+    main {
+        height: 1000px;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    
+    main img {
+        min-width: 100%;
+        height: 1000px;
+        max-height: 1000px;
+    }
+    
+    div.conteudoMain {
+        align-items: center;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    
+    div.saibaMaisHeader{
+        justify-content: space-between
+    }
+
+    /*Vantagens de usar nosso APP tablet*/
+    .backgroundVantagens {
+        height: 550px;
+    }
+    
+    .window {
+        width: 90%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 30px 20px;
+        justify-content: space-between;
+        top: -70px;
+    }
+    
+    div.conteudo {
+        width: 55%;
+        justify-content: center;
+    }
+    
+    .vantagensImagem {
+        width: 40%;
+        margin-right: 0;
+        overflow: hidden;
+    }
+    
+    #imagemVantagens {
+        width: 515px;
+        height: auto;
+        transform: translateX(-40%);
+    }
+    
+    div.conteudo h2 {
+        width: 85%;
+        margin-right: 15%;
+        margin-bottom: 20px;
+    }
+    
+    .vantagensUnidade {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    
+    .textosIconeVantagens {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 320px){
+    /*MAIN mobile*/
+    main {
+        height: 1100px;
+        flex-direction: column;
+        overflow: hidden;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    
+    main img {
+        min-width: 100%;
+        height: 1100px;
+        max-height: 1100px;
+    }
+    
+    div.conteudoMain {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    
+    div.paragrafosHeader {
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1{
+        margin: 20px 0;
+    }
+    
+    div.saibaMaisHeader{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80px;
+        margin: 20px 0;
+    }
+    
+    a.saibaMaisHeaderBotao {
+        margin-right: 0;
+    }
+
+    /*Formulário mobile*/
+    .form {
+        width: 100%;
+    }
+    
+    .inputForm, input#email.inputForm {
+        width: 85%;
+    }
+    
+    .inputMessageForm {
+        width: 85%;
+    }
+    
+    .buttonPosition {
+        width: 85%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    /*Vantagens de usar nosso APP mobile*/
+    .backgroundVantagens {
+        height: 870px;
+    }
+    
+    .window {
+        width: 90%;
+        height: 900px;
+        box-sizing: border-box;
+        padding: 30px 20px;
+        flex-direction: column;
+        justify-content: center;
+        top: -70px;
+    }
+    
+    div.conteudo {
+        width: 100%;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    
+    .vantagensImagem {
+        width: 100;
+        margin-right: 0;
+        overflow: hidden;
+    }
+    
+    #imagemVantagens {
+        width: 100%;
+        height: auto;
+    }
+    
+    div.conteudo h2 {
+        width: 90%;
+        margin-right: 10%;
+        margin-bottom: 20px;
+    }
+    
+    .vantagensUnidade {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    
+    .textosIconeVantagens {
+        margin-left: 20px;
+    }
+}

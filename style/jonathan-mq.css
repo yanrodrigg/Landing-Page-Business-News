@@ -1,0 +1,88 @@
+@media screen and (max-width: 1170px) and (min-width: 601px) {
+    /*dados tablet*/
+    div.dadosEstatisticas {
+        height: 700px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    div.dadosUnidade {
+        width: 45%;
+    }
+    
+    div.dadosUnidade:not(:last-child) {
+      margin-right: 0;
+    }
+    
+    /*quem somos tablet*/
+    div.quemSomosBackground {
+        width: 100%;
+        height: auto;
+        min-height: 1000px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      div.quemSomosConteudo {
+        margin: 20px 0;
+      }
+
+      div.quemSomosImagem{
+        width: 100%;
+      }
+
+      div.quemSomosImagem img{
+        display: block;
+        width: 70%;
+        margin: 0 auto 30px auto;
+      }
+}
+
+@media screen and (max-width: 600px) and (min-width: 320px){
+    /*dados mobile*/
+    div.dadosEstatisticas {
+        height: 1200px;
+        flex-direction: column;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 30px;
+    }
+    
+    div.dadosUnidade {
+        width: 100%;
+    }
+    
+    div.dadosUnidade:not(:last-child) {
+      margin-right: 0;
+    }
+    
+    /*quem somos mobile*/
+    div.quemSomosBackground {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 30px;
+    }
+      
+    div.quemSomosConteudo {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+
+    div.quemSomosImagem img{
+        display: block;
+        width: 100%;
+        margin: 15px 0 0 0;
+    }
+
+    /*quem somos cta mobile*/
+    .quemsomoscta {
+        height: auto;
+        min-height: 300px;
+        box-sizing: border-box;
+        padding: 30px;
+    }
+}
